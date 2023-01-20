@@ -9,16 +9,29 @@ body {
 
 .container {
     background-color: hsl(216, 50%, 16%);
-    width: 300px;
-    height: 495px;
+    width: 260px;
+    height: 465px;
+    padding: 15px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 125px;
 }
 
-img {
-    width: 280px;
+.nft_img {
+    width: 260px;
+    border-radius: 15px;
 }
 
 h3 {
     color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+.definition {
+    margin: 0px 0px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
 }
 
 .definition,
@@ -26,8 +39,52 @@ h3 {
     color: hsl(215, 51%, 70%);
 }
 
+.eth_icon {
+    display: inline-block;
+    vertical-align: sub;
+}
+
 .price {
+    display: inline-block;
     color: hsl(178, 100%, 50%);
+    margin-right: 85px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.clock_icon {
+    vertical-align: -4px;
+}
+
+.time_left {
+    font-size: 13px;
+    display: inline-block;
+    margin: 14px 0px 14px 4px;
+}
+
+hr {
+    border: 1px solid hsl(215, 51%, 70%);
+    border-bottom: 0;
+}
+
+.avatar_img {
+    width: 30px;
+    display: inline-block;
+    vertical-align: -10px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+span {
+    color: hsl(215, 51%, 70%);
+}
+
+.card_footer {
+    display: inline-block;
+    margin-left: 12px;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+    font-size: 15px;
 }
 
 /* END NFT CARD */
@@ -35,8 +92,9 @@ h3 {
 /* Start Footer */
 
 .attribution {
-    font-size: 11px;
+    font-size: 13px;
     text-align: center;
+    margin-top: 110px;
 }
 
 .attribution a {
